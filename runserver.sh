@@ -83,6 +83,7 @@ if [[ -n $HEADLESS ]] ; then
 fi
 
 wine64 "$SERVERDIR"/Arma/arma3server_x64.exe \
+  -filePatching \
   -nosplash \
   -port=2302 \
   -name=server \
